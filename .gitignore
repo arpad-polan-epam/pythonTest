@@ -1,0 +1,10 @@
+.idea/
+RESULT/
+DEMO/
+venv/
+versions.txt
+*.pyc
+*.*~
+test-report.html
+test-execution-registry.xml
+tests/at/system/my_buffer.bin
