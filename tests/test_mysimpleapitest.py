@@ -7,4 +7,9 @@ def test_dog():
     assert "Dog" in response.text
     print(response.text)
 
-
+# this is the same as befor but with failing assertion on return code
+def test_dog2():
+    response = requests.get("https://api.thedogapi.com/")
+    assert response.status_code == 100
+    assert "Dog" in response.text
+    print(response.text)
